@@ -1,0 +1,29 @@
+.navigation
+    display: flex
+    background-color: #e5e5e5
+    justify-content: space-around
+    align-items: center
+
+    ul
+        display: flex
+    
+        li + li
+            margin-left: 68px
+        
+        li
+            list-style: none
+            padding: 10px 20px
+            transition: box-shadow 0.5s ease
+            
+            a
+                text-decoration: none
+                font-family: ABeeZee
+                font-weight: 400
+                color: #000
+        
+        li:hover
+            background-color: #fff
+            box-shadow: 5px 5px 10px 0px #000
+            cursor: pointer
+
+
